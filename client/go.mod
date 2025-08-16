@@ -1,4 +1,4 @@
-module github.com/pi-prakhar/go-resilient-app
+module resilient-app-client
 
 go 1.24.0
 
@@ -10,6 +10,7 @@ require (
 	github.com/prometheus/client_model v0.6.2 // indirect
 	github.com/prometheus/common v0.65.0 // indirect
 	github.com/prometheus/procfs v0.16.1 // indirect
+	github.com/slok/goresilience v0.2.0 // indirect
 	golang.org/x/sys v0.33.0 // indirect
 	google.golang.org/protobuf v1.36.6 // indirect
 )

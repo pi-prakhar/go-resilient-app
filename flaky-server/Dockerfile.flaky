@@ -9,7 +9,7 @@ RUN go mod download
 
 COPY . .
 
-RUN go build -o flaky ./server.go
+RUN go build -o flaky ./main.go
 
 EXPOSE 8081
 
